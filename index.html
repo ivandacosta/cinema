@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID Menú</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+
+    <header class="hero">
+
+        <nav class="nav container" id="nav">
+            <a href="./index.html">
+                <h2 class="nav__logo"><img src="./img/imax.png" style="width: 100px;" alt="imax"></h2>
+            </a>
+
+            <ul class="nav__links">
+
+                <li class="nav__item">
+                    <a href="./index.html" style="color: #0073CF;" class="nav__link">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./pages/peliculas.html" class="nav__link">Peliculas</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Contacto</a>
+                </li>
+
+            </ul>
+
+            <a href="#nav" class="nav__hamburguer">
+                <img src="./assets/menu.svg" class="nav__icon">
+            </a>
+
+            <a href="#" class="nav__close">
+                <img src="./assets/close.svg" class="nav__icon">
+            </a>
+
+        </nav>
+
+    </header>
+
+    <section class="heros" >
+        
+    </section>
+
+    <section class="ver-peliculas">
+        <h2>Peliculas destacadas</h2>
+        <div class="ver-grid">
+            <div class="ver-items">
+                <a href="">    
+                    <img src="./img/telefnegro.jpg" alt="telefono_negro">
+                    <p>Estreno</p>
+                </a>
+            </div>
+            <div class="ver-items">
+                <a href="">
+                    <img src="./img/jurasicworld.jpg" alt="jurassic">
+                </a>
+            </div>
+            <div class="ver-items">
+                <a href="">
+                    <img src="./img/buzz.jpg" alt="buzz">
+                </a>
+            </div>
+            <div class="ver-items">
+                <a href="">
+                    <img src="./img/minions.jpg" alt="minions">
+                    <p>Estreno</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="contentfoo">
+
+            <div class="redes">
+                <ul>
+                    <li>Home</li>
+                    <li>Peliculas</li>
+                    <li>Contacto</li>
+                </ul>
+            </div>
+            
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./img/imax.png" style="width: 100px" alt="logo">
+                </a>
+            </div>
+            
+            <div class="afip">
+                <img src="./img/data-fiscal.png" alt="fiscal">
+            </div>
+        </div>
+    </footer>
+
+<script src="https://kit.fontawesome.com/41ca4c84cd.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+</body>
+
+</html>

@@ -26,6 +26,7 @@ const productos = [
     
 ];
 
+let carrito = 0;
 
 
 
@@ -46,6 +47,7 @@ const comprar = (id) =>{
     const selector = document.querySelector(".cart-items")
         const div = document.createElement(`div`)
         div.className = `remove`
+        carrito+=coincidencia.price
         div.innerHTML = `<img src="${coincidencia.img}">
         <h2>${coincidencia.nombre}</h2>
         <p>$${coincidencia.price}</p>
@@ -57,6 +59,5 @@ function quitar (producto){
     const selector = document.querySelector(".remove")
     selector.remove();
 }
-
 
 AddCart();

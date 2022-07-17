@@ -184,7 +184,6 @@ footer .afip {
   width: 180px;
 }
 .shop .shop-one .shop-items {
-  margin: 0 30px;
   display: flex;
   gap: 10px;
   flex-wrap: wrap;

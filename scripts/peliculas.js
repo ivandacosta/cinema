@@ -23,12 +23,7 @@ const productos = [
         img: "../img/telefnegro.jpg",
         price: 1300,
     },
-    {
-        id: 5,
-        nombre: "EL TELEFONO NEGRO",
-        img: "../img/telefnegro.jpg",
-        price: 1300,
-    },
+    
 ];
 
 
